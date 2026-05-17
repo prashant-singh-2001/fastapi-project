@@ -16,3 +16,5 @@ echo.
 echo Setup completed successfully!
 echo To activate the environment later use:
 echo venv\Scripts\activate
+
+pause
