@@ -40,8 +40,9 @@ def get_user(user_id: int):
 
 @app.get("/users")
 def get_users(age: int):
-
+    user1 = {"name": "Alice", "age": 30}
     return {
+        user1["name"]: user1["age"],
         "age": age
     }
 
